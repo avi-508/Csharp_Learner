@@ -5,7 +5,7 @@
         Console.Write("Enter how many tables do u want to merge: ");
         int no_of_tables = Convert.ToInt32(Console.ReadLine());
         int no_of_seats = 4;
-        for(int i = 0; i < no_of_tables - 1; i++)
+        for(int i = 1; i < no_of_tables ; i++)
         {
             no_of_seats += 2;
         }
